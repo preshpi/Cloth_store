@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'cookie', cursive;
+}
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.summer {
+    font-family: 'cookie', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'cookie', cursive;
+    color:#111; 
+}
+
+.right{
+ position: relative;
+}
+.right img{
+   max-width:100%;
+   height: auto;
+}
+
+.d-text{
+    position: absolute;
+    top:0;
+    padding:120px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.circle{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 10% auto;
+    position:relative;
+    margin-bottom:  50px;
+}
+
+.content{
+    position: absolute;
+    width:inherit;
+    height: auto;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+  
+.category{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 60px;
+    background-image: url(../image/hg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+  .thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left:0;
+    
+    width: 100%;
+}
+
+.project{
+    width:100%;
+    height:40vh; 
+}
+
+
+.fa-color{
+    color:red;
+}
+
+.footer__social {
+    letter-spacing: 1rem; 
+}
+
+.box{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.footer__newslatter{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 2px;
+}
+
+.footer__newslatter h1{
+	margin-bottom: 40px;
+	font-size: 42px;
+	color: aquamarine;
+}
+
+.newsletter{
+	max-width: 550px;
+	width: 100%;
+	position: relative;
+}
+
+.newsletter{
+	max-width: 550px;
+	width: 100%;
+	position: relative;
+}
+
+.newsletter .input{
+	width: 100%;
+	padding: 30px 100px 30px 60px;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+
+.newsletter .btn{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30px;
+	background: red;
+	padding: 15px 20px;
+	border-radius: 25px;
+	font-size: 12px;
+	letter-spacing: 5px;
+	color: #fff;
+	cursor: pointer;
+	text-transform:uppercase; 
+}
+
+ 
