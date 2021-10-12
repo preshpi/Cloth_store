@@ -72,7 +72,7 @@ let loop = ``;
 
 product.forEach(element => {
  loop += `
- <div class="col-12 col-md-6 col-lg-4 ">
+ <div class="container-fluid ">
    <div class="img">
      <img src="./image/${element.product_img}.jpg" alt="kids" width="100%" height="auto" class="py-3" >
   </div>
