@@ -15,15 +15,12 @@
 }
 
 
-.summer {
-    font-family: 'cookie', cursive;
-    font-size: 40px;
-    font-weight: 700;
-}
+
 
 .project{
     font-size: 60px;
     font-weight: 700;
+    font-family: 'cookie', cursive;
 }
 
 h1 {
@@ -50,25 +47,6 @@ h1 {
    
 }
 
-.circle{
-    width:230px;
-    height:230px;
-    border-radius: 50%;
-    background-color: #fff;
-    margin: 10% auto;
-    position:relative;
-    margin-bottom:  50px;
-}
-
-.content{
-    position: absolute;
-    width:inherit;
-    height: auto;
-    top:50%;
-    transform: translateY(-50%);
-    text-align: center;
-    text-transform: uppercase;
-}
 
   
 .category{
@@ -78,8 +56,8 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    padding: 60px;
-    background-image: url(../image/hg.jpg);
+    padding: 50px;
+    background-image: url(../image/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
