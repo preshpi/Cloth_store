@@ -1,25 +1,25 @@
 let product = [
   {
-      product_name: "Skickers",
-      product_img: "trend1",
+      product_name: "Jumpsuit",
+      product_img: "pic4",
       price: "$2300"
   },
 
   {
-    product_name: "Bag",
-    product_img: "trend2",
+    product_name: "Men's fit",
+    product_img: "pic5",
     price: "$2300"
 },
 
 {
-    product_name: "Sunglass",
-    product_img: "trend3",
+    product_name: "Sneakers",
+    product_img: "pic6",
     price: "$2300"
 },
 
 {
-    product_name: "FaceCap",
-    product_img: "trend4",
+    product_name: "Ladie's fit",
+    product_img: "pic7",
     price: "$2300"
 },
 
@@ -54,26 +54,33 @@ let product = [
 },
 
 {
-    product_name: "Shirt and Trouser",
-    product_img: "img5",
+    product_name: "jewelry",
+    product_img: "pic2",
     price: "$100"
 },
 
 {
-    product_name: "Hoddie",
-    product_img: "img6",
+    product_name: "Necklase",
+    product_img: "pic1",
+    price: "$200"
+},
+
+{
+    product_name: "Mini skrit",
+    product_img: "pic3",
     price: "$200"
 },
 
 ];
+
 
 let hard = document.querySelector('#wrapper')
 let loop = ``;
 
 product.forEach(element => {
  loop += `
- <div class="container-fluid ">
-   <div class="img">
+ <div class="col-lg-3 col-md-4 col-sm-6 container"">
+   <div class="product-card">
      <img src="./image/${element.product_img}.jpg" alt="kids" width="100%" height="auto" class="py-3" >
   </div>
 
@@ -83,9 +90,10 @@ product.forEach(element => {
   <p class="fs-4 py-1 text-danger ms-4">${element.price}</p> 
 </div>
 
+ 
+
  `;
  hard.innerHTML = loop;
 });
-
 
 

@@ -4,3 +4,15 @@
     box-sizing: border-box;
 }
 
+.container{
+    width:90%;
+    margin:0 auto;
+}
+
+
+
+
+.product-section{
+    display: flex;
+    justify-content: space-between;
+}
